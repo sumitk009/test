@@ -5,7 +5,7 @@ Upload the contents of this folder to the root of your existing Vercel/GitHub pr
 Question banks:
 - js/exams/gk-sets.js: 10 existing GK sets
 - js/exams/bihar-police.js: 4 existing Bihar Police mocks
-- js/exams/bpsc-prelims.js: starter bank; add verified BPSC questions here
+- js/exams/bpsc-prelims.js: existing BPSC mocks plus 12 new practice sets (350 questions from the supplied question PDFs; eleven 30-question sets and one 20-question final set)
 - js/data.js: combines banks for the existing app
 
 Modes:
@@ -16,4 +16,4 @@ Question schema: {t: topicIndex, e: English question, h: Hindi question, o: [[En
 
 Existing feedback/footer files are retained. The existing question sets are preserved; one existing GK set contains 73 questions, so its actual count is shown dynamically.
 
-BPSC: js/exams/bpsc-prelims.js now holds BPSC Prelims Mock Test 1 (72nd CCE, Set-4: 150 questions, 120 min, with explanations). Add more BPSC sets as extra arrays inside window.GKMockBanks.bpscPrelims.
+BPSC: the two existing BPSC mock tests are preserved. Twelve new BPSC practice sets are appended. The supplied Important Notes Set-3 PDF is revision material, not an MCQ question paper, so it was not converted into questions.
